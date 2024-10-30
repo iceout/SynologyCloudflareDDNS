@@ -57,6 +57,6 @@ EOF
    - Username/Email: `<Zone ID>`
    - Password Key: `<API Token>`
 
-## Added update_cf_dns.sh
+## 新增 update_cf_dns.sh
 
-Synology's DDNS has limitations. A DDNS provider can only set up one host name, so adding a script can set up multiple subdomains.
+群晖的 DDNS 有限制，一个 DDNS 供应商只能设置一个主机名，因此增加一个脚本可以设置多个子域名。
