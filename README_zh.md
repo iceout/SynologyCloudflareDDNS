@@ -2,6 +2,8 @@
 
 The is a script to be used to add [Cloudflare](https://www.cloudflare.com/) as a DDNS to [Synology](https://www.synology.com/) NAS. The script used an updated API, Cloudflare API v4.
 
+[[English]](./README.md)  [[中文文档]](./README_CN.md)
+
 ## How to use
 
 ### Access Synology via SSH
@@ -54,3 +56,7 @@ EOF
    - Hostname: `www.example.com`
    - Username/Email: `<Zone ID>`
    - Password Key: `<API Token>`
+
+## 新增 update_cf_dns.sh
+
+群晖的 DDNS 有限制，一个 DDNS 供应商只能设置一个主机名，因此增加一个脚本可以设置多个子域名。
